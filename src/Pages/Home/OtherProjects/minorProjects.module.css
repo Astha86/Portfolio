@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    align-items: center;
+    border-bottom: 0.1px solid #585b63;
+}
+.Heading{
+    margin-bottom:4px;
+}
+.Heading{
+    font-family: "Arimo";
+    color:white;
+}
+
+.Carousal{
+    width: calc(50vw);
+    padding:30px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .main{
+        align-items: center;
+        padding-top: 3%;
+    
+    }
+    .Heading{
+        margin-bottom:4px;
+        font-size:24px;
+    }
+    
+    .Carousal{
+        width: 80vw;
+        /* padding:30px; */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Carousal{
+        width: 90vw;
+        padding:30px;
+    }
+
+}

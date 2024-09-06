@@ -1,0 +1,51 @@
+.scrollToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 40px;
+  animation: fadeIn 200ms ease-in-out 1s both;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+.fadeAnimate {
+  animation: fadeIn 200ms ease-in-out 1s both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.ArrowUp {
+  padding: 5px;
+  cursor: pointer;
+  background: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ArrowUp img{
+  height: 40px;
+  width: 40px;
+  background: none;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .scrollToTop {
+    right: 15px;
+  }
+  .ArrowUp img{
+      height: 30px;
+      width: 30px;
+    }
+}

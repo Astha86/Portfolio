@@ -1,0 +1,95 @@
+
+.CarousalSlide{
+    text-align: center;
+    font-family: "Cormorant";
+}
+.imageIcon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.imageIcon img{
+    border-radius: 6px;
+    width: 60%;
+    height: 200px;
+}
+
+.textCarousal{
+    margin-top:12px;
+    color: white;
+    font-family: "Cormorant";
+    /* padding: 2px; */
+    font-size:22px;
+}
+.tags{
+    padding-top:10px;
+    padding-bottom: 15px;
+}
+.name{
+    font-size: 40px;
+    font-family: "Colormant";
+}
+.name,.subName,.position{
+    color:white;
+    font-weight: 600;
+}
+.position{
+    font-family: "Cormorant" ;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline #585b63;
+}
+.subName{
+    font-family: "Arimo";
+    font-weight:400;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .imageIcon{
+        margin-bottom: 24px;
+    }
+
+    .imageIcon img{
+        border-radius: 6px;
+        width: 90%;
+        height: 150px;
+    }
+    
+    .textCarousal{
+        margin-top:12px;
+        font-size:18px;
+    }
+    .tags{
+        padding-top:8px;
+        padding-bottom: 20px;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .subName{
+        font-family: "Arimo";
+        font-weight:400;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .textCarousal{
+        font-size:16px;
+    }
+    .position{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .textCarousal{
+        font-size:14px;
+    }
+    .position{
+        font-size: 14px;
+    }
+}

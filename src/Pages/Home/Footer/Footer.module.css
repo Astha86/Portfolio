@@ -1,0 +1,112 @@
+.footer {
+  background-color: #272727;
+  height: 100vh;
+  padding-left:8%;
+  padding-right:8%;
+  font-family: "Arimo";
+  text-transform: capitalize;
+}
+
+.footerSection {
+  position: relative;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 40px;
+  color: #ece7e1;
+  padding-bottom: 90px;
+  font-family: "main";
+  line-height: 2px;
+  letter-spacing: 2px;
+} 
+
+.Links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+.name {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-top: 1px solid #585b63;
+  /* background-color: orange; */
+  font-family: "Arimo";
+  font-size: 16px;
+}
+
+.mailBtn {
+  padding-top: 50px;
+}
+.mailBtn_btn{
+    font-family: "Arimo";
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size:16px;
+    margin-left:0px;
+}
+.arrow {
+  transform: rotate(40deg);
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    background-color: #272727;
+  }
+
+  .footerSection {
+    height: 90%;
+  }
+  .heading {
+    font-size: 24px;
+    padding-bottom: 50px;
+    font-family: "Arimo";
+  }
+
+  .Links {
+    gap: 12px;
+  }
+
+  .name {
+    height: 10%;
+    font-size: 16px;
+  }
+
+  .mailBtn {
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footerSection {
+    height: 90%;
+  }
+  .heading {
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-family: main;
+  }
+
+  .Links {
+    gap: 16px;
+  }
+
+  .name {
+    height: 10%;
+    font-size: 12px;
+  }
+
+  .mailBtn {
+    padding-top: 24px;
+  }
+}

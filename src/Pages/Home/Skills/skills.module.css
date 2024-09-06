@@ -1,0 +1,148 @@
+.main{
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:5%;
+    background-color: #272727;
+    border-bottom: 0.1px solid #585b63;
+}
+
+.main p:nth-child(1){
+    font-size: 100px;
+    font-family: 'main';
+    color: #ece7e1;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+    
+.main p:nth-child(2){
+    font-size: 30px;
+    font-family: 'Gilroy-light';
+    color: #fff2;
+    display: flex;
+    justify-content: center;
+    /* font-weight: 500; */
+    align-items: center;
+}
+
+.stacks{
+    color:white;
+    font-weight: 400;
+    font-family: "Cormorant";
+    font-size:25px;
+}
+
+.logoSection{
+    
+    margin-top:40px;
+}
+
+.logoImages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top:12px;
+}
+
+.logoImages img{
+    width:80px;
+    height:80px;
+    background-size: cover;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .main{
+        padding-left:10%;
+        padding-right:10%;
+        padding-top:5%;
+    }
+    .heading{
+        padding-top:30px;
+        font-size: 24px;
+    }
+    .headingText{
+        font-size: 16px;
+        font-weight:300;
+        padding-bottom:12px;
+    }
+    .stacks{
+        font-weight: 400;
+        font-size:14px;
+    }
+    
+    .logoSection{
+        margin-top:30px;
+    }
+    
+    .logoImages{
+        display: flex;
+        gap: 24px;
+        margin-top:12px;
+    }
+    
+    .logoImages img{
+        width:60px;
+        height:60px;
+    }
+    
+}
+
+@media screen and (max-width:800.99px) {
+  
+    .main p:nth-child(1){
+      font-size: 60px;
+    }
+  }
+  
+  @media screen and (max-width:600.99px) {
+    
+    .main p:nth-child(1){
+      font-size: 50px;
+    }
+  
+    .main p:nth-child(2){
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width:500.99px) {
+    
+    .main p:nth-child(1){
+      font-size: 40px;
+    }
+    .main p:nth-child(2){
+      font-size: 20px;
+      /* padding-bottom: 50px; */
+  
+    }
+  }
+  
+  @media screen and (max-width:400.99px) {
+    
+    .main p:nth-child(1){
+    font-size: 35px;
+    }
+  
+    .main p:nth-child(2){
+      font-size: 18px;
+      /* padding-bottom: 40px; */
+  
+    }
+  }
+  
+  @media screen and (max-width:350.99px) {
+    
+    .main p:nth-child(1){
+      font-size: 40px;
+    }
+  
+    .main p:nth-child(2){
+      font-size: 15px;
+      /* padding-bottom: 30px; */
+    }
+  }

@@ -1,0 +1,156 @@
+
+.main{
+    display:flex;
+}
+.Left{
+    padding-right:34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Left,.Right{
+    width: 50%;
+}
+
+.Right img{
+    width: 100%;
+    border-radius: 6px;;
+}
+
+.Heading{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Arimo";
+    font-weight:400;
+    font-size:32px;
+    margin: 0;
+}
+.subHeading{
+    margin-bottom:40px;
+    font-family: "Cormorant";
+    font-size:20px;
+    text-transform: capitalize;
+}
+.Desc{
+    font-family: "Cormorant";
+    font-size:20px;   
+}
+.tags{
+    display:flex;
+    gap:8px;
+}
+
+.link{
+    margin-top:40px;
+    display: flex;
+    gap:8px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.link span:nth-child(1){
+    font-family:"Arimo";
+}
+.arrow{
+    transform: rotate(40deg);
+}
+
+@media only screen and (max-width: 1000px) {
+   
+.main{
+    flex-direction: column-reverse;
+}
+.Left{
+    padding-right:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Left,.Right{
+    width: 100%;
+}
+
+.Right{
+    padding-bottom:30px;
+}
+
+.Right img{
+    width: 100%;
+}
+
+.Heading{
+    font-weight:400;
+    font-size:32px;
+}
+.subHeading{
+    margin-bottom:30px;
+    font-size:18px;
+    text-transform: capitalize;
+}
+.Desc{
+    font-size:18px;   
+}
+.tags{
+    display:flex;
+    gap:8px;
+}
+
+.link{
+    margin-top:30px;
+    display: flex;
+    gap:8px;
+    align-items: center;
+}
+}
+
+@media only screen and (max-width: 700px) {
+   
+    .main{
+        flex-direction: column-reverse;
+    }
+    .Left{
+        padding-right:0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Left,.Right{
+        width: 100%;
+    }
+    
+    .Right{
+        padding-bottom:30px;
+    }
+    
+    .Right img{
+        width: 100%;
+    }
+    
+    .Heading{
+        font-weight:400;
+        font-size:24px;
+    }
+    .subHeading{
+        margin-bottom:20px;
+        font-size:14px;
+        text-transform: capitalize;
+    }
+    .Desc{
+        font-size:16px;   
+    }
+    .tags{
+        display:flex;
+        flex-wrap: wrap;
+        gap:8px;
+        font-size:14px;
+    }
+    
+    .link{
+        margin-top:20px;
+        display: flex;
+        gap:8px;
+        align-items: center;
+    }
+    .link span{
+        font-size:14px;
+    }
+    }
