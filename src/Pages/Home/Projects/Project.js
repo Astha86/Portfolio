@@ -3,7 +3,7 @@ import styles from "./Project.module.css";
 import CodeBuddy from "../../../Assets/Images/Codebuddy.png";
 import Mart from "../../../Assets/Images/Shopmart.png";
 import Techie from "../../../Assets/Images/techie.png";
-import Weather from "../../../Assets/Images/weather.png";
+import Nexora from "../../../Assets/Images/Nexora.png";
 import ProjectTem from "../../../Components/ProjectTemplate/ProjectTem";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -44,6 +44,19 @@ export default function Project({Project_ref}) {
 
         <div className={styles.Project}>
           <ProjectTem
+            title="Nexora AI"
+            smallDesc="NexoraAI is a chatBot, leveraging the Google Gemini API for enhanced conversational interactions."
+            longDesc="It is a large language model (LLM) capable of generating various creative text formats, allowing you to ask questions and receive informative responses in a conversational manner. Essentially, this AI model can be instructed to perform a wide range of tasks."
+            skill1="React"
+            skill2="CSS"
+            skill3=" Google GenerativeAI"
+            link="https://nexoraai.netlify.app/"
+            image={Nexora}
+          />
+        </div>
+
+        <div className={styles.Project}>
+          <ProjectTem
             title="Tech Blogs"
             smallDesc="a web application that provides a platform for reading and exploring technical blogs"
             longDesc="It offers a collection of blogs organized by categories and tags. Users can easily navigate between blogs and discover related content. It is made to concretely understand the concept of routing, dynamic url based rendering Developed Reusable components 
@@ -67,19 +80,6 @@ export default function Project({Project_ref}) {
             skill4="Rest APIs"
             link="https://shop-mart-byastha.netlify.app/"
             image={Mart}
-          />
-        </div>
-
-        <div className={styles.Project}>
-          <ProjectTem
-            title="Weather Insights"
-            smallDesc="The web application that display the current weather conditions including temperature, humidity, wind speed, and weather description."
-            longDesc="Designed a weather website, which fetches the user location and shows the weather results for that location with 85% accuracy. Added an additional functionality to allow users to search for the weather conditions for over 200,000 cities in the world."
-            skill1="HTML"
-            skill2="CSS"
-            skill3="JavaScript"
-            link="https://weather-insights-byastha.netlify.app/"
-            image={Weather}
           />
         </div>
 

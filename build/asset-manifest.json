@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.052547b2.css",
-    "main.js": "/static/js/main.10eb9824.js",
+    "main.js": "/static/js/main.f0b76b2e.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/weather.png": "/static/media/weather.2926be6a00e19040973e.png",
     "static/media/Shopmart.png": "/static/media/Shopmart.4f7d9d040fce0963beef.png",
     "static/media/Codebuddy.png": "/static/media/Codebuddy.552d86c43423fe48c4d0.png",
     "static/media/PasswordGenerator.png": "/static/media/PasswordGenerator.07a9cc4065feb04d5f67.png",
+    "static/media/Weather.png": "/static/media/Weather.79dd8dfad9696a64ae63.png",
+    "static/media/Nexora.png": "/static/media/Nexora.34ae5bc3c7ddef15a296.png",
     "static/media/BharatTour.png": "/static/media/BharatTour.f4c6f8bf2d90f19ea4a1.png",
     "static/media/Cormorant-Medium.ttf": "/static/media/Cormorant-Medium.35694ca47ea4a22c9204.ttf",
     "static/media/Cormorant-Light.ttf": "/static/media/Cormorant-Light.413a21fd8439710bfebe.ttf",
@@ -111,11 +112,11 @@
     "index.html": "/index.html",
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "main.052547b2.css.map": "/static/css/main.052547b2.css.map",
-    "main.10eb9824.js.map": "/static/js/main.10eb9824.js.map",
+    "main.f0b76b2e.js.map": "/static/js/main.f0b76b2e.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.052547b2.css",
-    "static/js/main.10eb9824.js"
+    "static/js/main.f0b76b2e.js"
   ]
 }

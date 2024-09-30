@@ -5,6 +5,7 @@ import TicTac from "../../../Assets/Images/TicTac.png";
 import Razorpay from "../../../Assets/Images/Razorpay.png";
 import Gif from "../../../Assets/Images/Gif.png";
 import Bharat from "../../../Assets/Images/BharatTour.png";
+import Weather from "../../../Assets/Images/Weather.png";
 import PasswordGenerator from '../../../Assets/Images/PasswordGenerator.png';
 import MinorProjectTem from "../../../Components/MinorProjectTem/MinorProjectTem";
 import Aos from "aos";
@@ -29,6 +30,18 @@ function MinorProjects() {
       <div className={styles.main}>
 
         <Carousel className={styles.Carousal}>
+          <MinorProjectTem
+            img={Weather}
+            alt={"Weather Insight"}
+            text={
+              "Designed a weather website, which fetches the user location and shows the weather results for that location with 85% accuracy. Added an additional functionality to allow users to search for the weather conditions for over 200,000 cities in the world."
+            }
+            name={"Weather Insights"}
+            tag1={"HTML"}
+            tag2={"CSS"}
+            tag3={"JavaScript"}
+            link={"https://weather-insights-byastha.netlify.app/"}
+          />
           <MinorProjectTem
             img={PasswordGenerator}
             alt={"PasswordGenerator"}
