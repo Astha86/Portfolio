@@ -3,7 +3,7 @@ import styles from "./Landing.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { ArrowUpOutlined } from "@ant-design/icons";
-import Astha from '../../../Assets/Images/me.jpg';
+import Astha from '../../../Assets/Images/me.jpeg';
 import Github from '../../../Assets/Images/github.svg';
 import HackerRank from '../../../Assets/Images/hackerRank.svg';
 import LinkedIn from '../../../Assets/Images/linkedin.svg';
@@ -36,21 +36,35 @@ function Landing({Landing_ref}) {
           A <b>Full Stack Developer</b> with limitless ambition who is committed to transforming cool ideas into effective solutions that brings out real change.&nbsp;&nbsp;
             
           </p>
-            <span className={styles.Button}>
-              <a
-                style={{ textDecoration: "none", color: "white" }}
-                href="https://www.linkedin.com/in/astha-sahani/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-               <Button  className={styles.Btn} style={{ background: "inherit", color: "white", font:"inherit", marginTop:"2px"}}>
-                HIRE ME <ArrowUpOutlined className={styles.arrow} />
-                </Button>
-
-              </a>
+          
+          <span className={styles.resumeBtn}>
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="https://drive.google.com/file/d/1DxI3Ft7OK3pYpV9_nygxPVjWEdTVL_3x/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               
+              <Button className={styles.Btn} style={{ background: "inherit", color: "white", font:"inherit" }}>
 
-            </span>
+                RESUME <ArrowUpOutlined className={styles.arrow} />
+              </Button>
+            </a>
+
+            <a
+              style={{ textDecoration: "none", color: "white" }}
+              href="mailto:asthasahani08@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button  className={styles.Btn} style={{ background: "#FFE5AD", color: "black", font:"inherit", marginLeft:"16px" }}>
+              HIRE ME <ArrowUpOutlined className={styles.arrow} />
+              </Button>
+
+            </a>
+
+          </span>
+
         </div>
         <div className={styles.mainRight}> 
           <div className={styles.profileSection}>

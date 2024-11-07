@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.052547b2.css",
-    "main.js": "/static/js/main.f0b76b2e.js",
+    "main.js": "/static/js/main.c05d64e5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Shopmart.png": "/static/media/Shopmart.4f7d9d040fce0963beef.png",
     "static/media/Codebuddy.png": "/static/media/Codebuddy.552d86c43423fe48c4d0.png",
@@ -19,7 +19,6 @@
     "static/media/Lihataja.ttf": "/static/media/Lihataja.9b661f42d5908e9c2f62.ttf",
     "static/media/Bastliga One.ttf": "/static/media/Bastliga One.b99d91a5fef2b0c861ef.ttf",
     "static/media/PlayfairDisplay-ExtraBold_0.ttf": "/static/media/PlayfairDisplay-ExtraBold_0.18a9cdf91bf509de5642.ttf",
-    "static/media/me.jpg": "/static/media/me.8a0155579201f6805184.jpg",
     "static/media/Poppins-BlackItalic.ttf": "/static/media/Poppins-BlackItalic.563eda3d3407af0fb581.ttf",
     "static/media/Gilroy-UltraLightItalic.ttf": "/static/media/Gilroy-UltraLightItalic.87f0acd42b27a5408e0b.ttf",
     "static/media/Gilroy-ThinItalic.ttf": "/static/media/Gilroy-ThinItalic.930dc405dc78cc97a766.ttf",
@@ -76,7 +75,6 @@
     "static/media/circularstd-medium.otf": "/static/media/circularstd-medium.9ffafeddf192e8c8a111.otf",
     "static/media/Glamor-CondensedItalic.ttf": "/static/media/Glamor-CondensedItalic.b40aa63a1bb1d456f389.ttf",
     "static/media/Beauty Heart.ttf": "/static/media/Beauty Heart.caf50c2e3c9fdc6bb7f2.ttf",
-    "static/media/Testimonial.png": "/static/media/Testimonial.6a202369ad7e65e92232.png",
     "static/media/GrandSlang-Roman.ttf": "/static/media/GrandSlang-Roman.c001e5a5152fad8142a1.ttf",
     "static/media/Lovelo Line Light.otf": "/static/media/Lovelo Line Light.2399e18ea80d5ef74a49.otf",
     "static/media/Continua Online Trial Regular.ttf": "/static/media/Continua Online Trial Regular.d1a83d301521910e1e80.ttf",
@@ -96,6 +94,7 @@
     "static/media/Vanity-LightWide.ttf": "/static/media/Vanity-LightWide.3c19f9c1e1b8068fc9df.ttf",
     "static/media/Monastic.ttf": "/static/media/Monastic.5d29944b752ad82ef364.ttf",
     "static/media/up1.png": "/static/media/up1.4ba441ccde7101be56b2.png",
+    "static/media/me.jpeg": "/static/media/me.40d316ac3593975b165e.jpeg",
     "static/media/hackerRank.svg": "/static/media/hackerRank.01eee9704212f6c2cc0bc08e16d3deb8.svg",
     "static/media/leetcode.svg": "/static/media/leetcode.6e124f7de4e024500e556d4e304ba911.svg",
     "static/media/twitter.svg": "/static/media/twitter.d2ab289e7ee5942fd5a73cad1af160ee.svg",
@@ -112,11 +111,11 @@
     "index.html": "/index.html",
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "main.052547b2.css.map": "/static/css/main.052547b2.css.map",
-    "main.f0b76b2e.js.map": "/static/js/main.f0b76b2e.js.map",
+    "main.c05d64e5.js.map": "/static/js/main.c05d64e5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.052547b2.css",
-    "static/js/main.f0b76b2e.js"
+    "static/js/main.c05d64e5.js"
   ]
 }

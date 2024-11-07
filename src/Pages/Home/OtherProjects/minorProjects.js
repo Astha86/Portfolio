@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./minorProjects.module.css";
-import Testimonial from "../../../Assets/Images/Testimonial.png";
+// import Testimonial from "../../../Assets/Images/Testimonial.png";
 import TicTac from "../../../Assets/Images/TicTac.png";
 import Razorpay from "../../../Assets/Images/Razorpay.png";
 import Gif from "../../../Assets/Images/Gif.png";
@@ -106,7 +106,7 @@ function MinorProjects() {
             link={"https://bharat-safar.netlify.app/"}
           />
 
-          <MinorProjectTem
+          {/* <MinorProjectTem
             img={Testimonial}
             alt={"Testimonial"}
             text={
@@ -117,7 +117,7 @@ function MinorProjects() {
             tag2={"Tailwind"}
             tag3={"JavaScript"}
             link={"https://testimonial-webpage.netlify.app/"}
-          />
+          /> */}
         </Carousel>
       </div>
 

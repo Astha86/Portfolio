@@ -111,7 +111,7 @@ export default function Footer(props) {
 
           <div className={styles.mailBtn}>
             <Button className={styles.mailBtn_btn} primary style={{background:'#FFE5AD'}}>
-              <a href="mailto:asthasahani08@gmail.com">Hire Astha <ArrowUpOutlined className={styles.arrow} />
+              <a href="https://www.linkedin.com/in/astha-sahani/">Hire Astha <ArrowUpOutlined className={styles.arrow} />
               </a>
               
             </Button>
@@ -121,7 +121,7 @@ export default function Footer(props) {
         </div>
         
         <div className={styles.name}>
-          <span >Made with 🤍 by <a href="https://www.linkedin.com/in/astha-sahani/">Astha</a> © 2024</span>
+          <span >Made with 🤍 by <a href="https://www.linkedin.com/in/astha-sahani/">Astha</a> © {(new Date().getFullYear())}</span>
         </div>
       </div>
     </>
